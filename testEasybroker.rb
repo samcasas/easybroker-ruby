@@ -8,7 +8,7 @@ class TestEasybroker < Minitest::Test
     end
 
     def test_properties_titles
-
+        #Testeo del formato de salida
         expected_output = "Propiedad 1\n"
         assert_output(expected_output) { @easybroker.properties_titles }
     end
